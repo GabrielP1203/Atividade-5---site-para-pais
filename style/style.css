@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(89, 57, 193);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(255, 162, 0);
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 28px;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(140, 0, 255);
+}
+
+a:hover {
+    color: rgb(0, 46, 106);
+}
+
+a:active {
+    color: rgb(1, 124, 168);
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+
+    margin: auto;
+
+}
+
+.cabecalho{
+    background-color: rgb(142, 20, 6);
+
+    padding: 6px 5px;
+}
+
+.menu-lista{
+    margin: 20px, 0 0;
+    padding: 0;
+}
+
+.menu-lista li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid rgb(197, 10, 10);
+    border-radius: 5px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 212);
+    border-radius: 1ch;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(83, 54, 108);
+
+    text-align: center;
+
+}
+
+.rodape address{
+    font-style: normal;
+}
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: white;
+    color: blue;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    text-decoration: none;
+    
+}
