@@ -57,7 +57,7 @@ a:active {
 }
 
 .cabecalho{
-    background-color: rgb(142, 20, 6);
+    background-color: rgb(152, 11, 11);
 
     padding: 6px 5px;
 }
@@ -120,4 +120,47 @@ a:active {
 
     text-decoration: none;
     
+}
+
+.cabecalho-dois{
+    background-color: rgb(47, 105, 70);
+
+    padding: 6px 5px;
+}
+
+.titulo-secao-dois{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid rgb(47, 105, 70);
+    border-radius: 5px;
+}
+
+.rodape-dois{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(47, 105, 70);
+
+    text-align: center;
+
+}
+
+.rodape address{
+    font-style: normal;
+}
+
+
+.grade-cards-dois{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.card-dois{
+    padding: 24px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+
 }
